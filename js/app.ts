@@ -6,7 +6,7 @@ const age = (day:number, month:number, year:number):number => {
 
     if ((today[1] as number) < month){
         ageNow--;
-    }else if(((today[1] as number) = month) && ((today[0] as number) < day)){
+    }else if(((today[1] as number) === month) && ((today[0] as number) < day)){
         ageNow--;
     }
 

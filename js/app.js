@@ -5,7 +5,7 @@ var age = function (day, month, year) {
     if (today[1] < month) {
         ageNow--;
     }
-    else if ((today[1] = month) && (today[0] < day)) {
+    else if ((today[1] === month) && (today[0] < day)) {
         ageNow--;
     }
     return ageNow;
